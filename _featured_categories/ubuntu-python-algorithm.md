@@ -1,7 +1,7 @@
 ---
 # file: !my-blog.md
 layout: list
-title: Ubuntu / Language / Algorithm
+title: Ubuntu / Python / Algorithm
 slug: ubuntu-python-algorithm
 menu: true
 permalink: /ubuntu-python-algorithm/
