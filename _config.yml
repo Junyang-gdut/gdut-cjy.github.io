@@ -53,7 +53,7 @@ author:
 menu:
   - title:             Artificial Intelligence
     url:               /artificial-intelligence/
-  - title:             Ubuntu / Language / Algorithm
+  - title:             Ubuntu / Python / Algorithm
     url:               /ubuntu-python-algorithm/
   - title:             Pytorch / Docker / Git
     url:               /pytorch-docker-git/
