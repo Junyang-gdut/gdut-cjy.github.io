@@ -18,3 +18,9 @@ Please read [AboutMe](https://house-leo.github.io/about/).
 4. [Self Study](https://house-leo.github.io/Self-Study/)
 5. [Projects](https://house-leo.github.io/projects/)
 6. [My Life](https://house-leo.github.io/my-life/)
+
+
+
+## Recent News
+
+- 04/2020 - Released an awesome repository about **[Awesome-Image-Denoising](https://github.com/House-Leo/Awesome-Image-Denoising)**.
