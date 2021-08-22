@@ -21,16 +21,16 @@ title: 【Git】Docker Overleaf
 
    ------
 
-   备注：
+备注：
 
-   1. **检查端口状态**
+1. **检查端口状态**
 
-      ```
-      sudo firewall-cmd --query-port=8080/tcp
-      ```
+   ```
+   sudo firewall-cmd --query-port=8080/tcp
+   ```
 
-   2. **开放端口**
+2. **开放端口**
 
-      ```
-      sudo firewall-cmd --permanent --add-port=8080/tcp
-      ```
+   ```
+   sudo firewall-cmd --permanent --add-port=8080/tcp
+   ```
