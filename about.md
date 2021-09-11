@@ -7,7 +7,7 @@ image: /assets/img/catagorys/justdoit.jpg
 
 <p align="center"><img src="/assets/post_images/xlpic.jpg" alt="img"  /></p>
 
-# Hao Li
+# Junyang Chen
 
 - Email : 624930737@qq.com
 - Email : 2112103020@mail2.gdut.edu.cn

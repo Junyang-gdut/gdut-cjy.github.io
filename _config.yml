@@ -21,7 +21,7 @@ markdown:         kramdown
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 House-Lee Homepage
+title:                 JunYang-Chen Homepage
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -80,7 +80,7 @@ menu:
 #    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © All rights reserved By House Lee.
+copyright:             © All rights reserved By Junyang_Chen.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/

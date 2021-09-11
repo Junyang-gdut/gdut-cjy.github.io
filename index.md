@@ -4,7 +4,7 @@
 
 Thank you for visiting my blog!
 
-I am **Hao Li** from Guangdong University of Technology.
+I am **Junyang Chen** from Guangdong University of Technology.
 
 Please read [AboutMe](https://gdut-cjy.github.io/about/).
 

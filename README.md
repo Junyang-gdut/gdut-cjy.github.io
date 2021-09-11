@@ -4,7 +4,7 @@
 
 ## 个人
 
-我是JunYang CHen，博客：[Junyang Chen](http://gdut-cjy.github.io)
+我是JunYang Chen，博客：[Junyang Chen](http://gdut-cjy.github.io)
 
 刚建立个人主页，时间：2021年09月10日。
 

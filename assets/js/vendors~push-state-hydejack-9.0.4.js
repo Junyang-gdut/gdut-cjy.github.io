@@ -574,7 +574,7 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
     this._url = new URL(this.baseURL);
     this.reload$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"](); // Methods
 
-    this.cacheNr = 0;
+    this.caChenr = 0;
 
     this.upgrade = () => {
       var {
@@ -590,7 +590,7 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
           url: new URL(anchor.href, this.href),
           anchor,
           event,
-          cacheNr: this.cacheNr
+          caChenr: this.caChenr
         };
       }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(x => Object(_common__WEBPACK_IMPORTED_MODULE_4__["isPushEvent"])(x, this)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])((_ref2) => {
         var {
@@ -603,7 +603,7 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
       Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(() => window.history.state && window.history.state[this.histId]), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(event => ({
         cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Pop,
         url: new URL(window.location.href),
-        cacheNr: this.cacheNr,
+        caChenr: this.caChenr,
         event
       })));
       var reload$ = this.reload$; // .pipe(takeUntil(this.subjects.disconnect));
@@ -630,7 +630,7 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
           url: new URL(anchor.href, this.href),
           anchor,
           event,
-          cacheNr: this.cacheNr
+          caChenr: this.caChenr
         };
       }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(x => Object(_common__WEBPACK_IMPORTED_MODULE_4__["isHintEvent"])(x, this)));
       var prefetchResponse$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["merge"])(hint$, page$).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["distinctUntilChanged"])((x, y) => this.compareContext(x, y)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])(x => this.fetchManager.fetchPage(x)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["startWith"])({
@@ -780,7 +780,7 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
     this.reload$.next({
       cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Push,
       url: new URL(url, this.href),
-      cacheNr: ++this.cacheNr
+      caChenr: ++this.caChenr
     });
   }
 
@@ -788,7 +788,7 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
     this.reload$.next({
       cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Push,
       url: new URL(this.href),
-      cacheNr: ++this.cacheNr,
+      caChenr: ++this.caChenr,
       replace: true
     });
   }
@@ -797,13 +797,13 @@ var HyPushState = class HyPushState extends Object(_common__WEBPACK_IMPORTED_MOD
     this.reload$.next({
       cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Push,
       url: new URL(url, this.href),
-      cacheNr: ++this.cacheNr,
+      caChenr: ++this.caChenr,
       replace: true
     });
   }
 
   compareContext(p, q) {
-    return p.url.href === q.url.href && p.error === q.error && p.cacheNr === q.cacheNr;
+    return p.url.href === q.url.href && p.error === q.error && p.caChenr === q.caChenr;
   }
 
   connectedCallback() {

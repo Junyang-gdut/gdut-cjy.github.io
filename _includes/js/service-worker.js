@@ -226,8 +226,8 @@ const hasSWParam = ({ searchParams }) => searchParams.has(SW_CACHE_SEARCH_PARAM)
 const hasNoCacheParam = ({ searchParams }) => searchParams.has(NO_CACHE_SEARCH_PARAM);
 const isGoogleFonts = ({ hostname }) => hostname === 'fonts.googleapis.com' || hostname === 'fonts.gstatic.com'
 
-async function cacheResponse(cacheName, req, res) {
-  const cache = await caches.open(cacheName);
+async function cacheResponse(caChename, req, res) {
+  const cache = await caches.open(caChename);
   return cache.put(req, res);
 }
 
@@ -264,13 +264,13 @@ async function raceTruthy(iterable) {
 }
 
 async function fromNetwork(url, ...args) {
-  const cacheName = isAsset(url) || hasSWParam(url) ? ASSETS_CACHE : CONTENT_CACHE;
-  return fetchAndCache(cacheName, url, ...args);
+  const caChename = isAsset(url) || hasSWParam(url) ? ASSETS_CACHE : CONTENT_CACHE;
+  return fetchAndCache(caChename, url, ...args);
 }
 
-async function fetchAndCache(cacheName, url, request, e) {
+async function fetchAndCache(caChename, url, request, e) {
   const response = await fetch(noCache(noSWParam(url)));
-  if (response.ok) e.waitUntil(cacheResponse(cacheName, request, response.clone()));
+  if (response.ok) e.waitUntil(cacheResponse(caChename, request, response.clone()));
   return response;
 }
 

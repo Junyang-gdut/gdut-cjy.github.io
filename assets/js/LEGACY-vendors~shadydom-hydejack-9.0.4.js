@@ -5000,7 +5000,7 @@ function isUnscopedStyle(style) {
     compositionupdate: !0,
     compositionend: !0,
     touchstart: !0,
-    touchend: !0,
+    touChend: !0,
     touchmove: !0,
     touchcancel: !0,
     pointerover: !0,

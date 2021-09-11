@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name:                <Junyang><Chen>
-  email:               <junyang_chen@outlook.com>
+  email:               <junyang_Chen@outlook.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)  
@@ -25,7 +25,7 @@ author1:
   social:
     # twitter:         <username>
     github:          gdut-cjy
-    email:           <junyang_chen@outlook.com>
+    email:           <junyang_Chen@outlook.com>
     linkedin:        灏-李-a01064175
     sina-weibo:      tigeo
     steam:           house_lee

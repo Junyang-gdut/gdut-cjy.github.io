@@ -654,7 +654,7 @@ class ObservablesMixin {
   getEndObservable() {
     return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["combineLatest"])(this.$.mouseEvents).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["switchMap"])((_ref5) => {
       var [mouseEvents] = _ref5;
-      var touchend$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(document, "touchend", {
+      var touChend$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(document, "touChend", {
         passive: true
       }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["filter"])((_ref6) => {
         var {
@@ -665,7 +665,7 @@ class ObservablesMixin {
       var mouseup$ = !mouseEvents ? rxjs__WEBPACK_IMPORTED_MODULE_0__["NEVER"] : Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(document, "mouseup", {
         passive: true
       });
-      return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["merge"])(touchend$, mouseup$);
+      return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["merge"])(touChend$, mouseup$);
     }));
   }
 

@@ -716,7 +716,7 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
     _this._url = new URL(_this.baseURL);
     _this.reload$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"](); // Methods
 
-    _this.cacheNr = 0;
+    _this.caChenr = 0;
 
     _this.upgrade = function () {
       var _this$setupEventListe = _this.setupEventListeners(),
@@ -735,7 +735,7 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
           url: new URL(anchor.href, _this.href),
           anchor: anchor,
           event: event,
-          cacheNr: _this.cacheNr
+          caChenr: _this.caChenr
         };
       }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(function (x) {
         return Object(_common__WEBPACK_IMPORTED_MODULE_4__["isPushEvent"])(x, _assertThisInitialized(_this));
@@ -752,7 +752,7 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
         return {
           cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Pop,
           url: new URL(window.location.href),
-          cacheNr: _this.cacheNr,
+          caChenr: _this.caChenr,
           event: event
         };
       }));
@@ -797,7 +797,7 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
           url: new URL(anchor.href, _this.href),
           anchor: anchor,
           event: event,
-          cacheNr: _this.cacheNr
+          caChenr: _this.caChenr
         };
       }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(function (x) {
         return Object(_common__WEBPACK_IMPORTED_MODULE_4__["isHintEvent"])(x, _assertThisInitialized(_this));
@@ -908,7 +908,7 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
       this.reload$.next({
         cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Push,
         url: new URL(url, this.href),
-        cacheNr: ++this.cacheNr
+        caChenr: ++this.caChenr
       });
     }
   }, {
@@ -917,7 +917,7 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
       this.reload$.next({
         cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Push,
         url: new URL(this.href),
-        cacheNr: ++this.cacheNr,
+        caChenr: ++this.caChenr,
         replace: true
       });
     }
@@ -927,14 +927,14 @@ var HyPushState = /*#__PURE__*/function (_applyMixins) {
       this.reload$.next({
         cause: _common__WEBPACK_IMPORTED_MODULE_4__["Cause"].Push,
         url: new URL(url, this.href),
-        cacheNr: ++this.cacheNr,
+        caChenr: ++this.caChenr,
         replace: true
       });
     }
   }, {
     key: "compareContext",
     value: function compareContext(p, q) {
-      return p.url.href === q.url.href && p.error === q.error && p.cacheNr === q.cacheNr;
+      return p.url.href === q.url.href && p.error === q.error && p.caChenr === q.caChenr;
     }
   }, {
     key: "connectedCallback",

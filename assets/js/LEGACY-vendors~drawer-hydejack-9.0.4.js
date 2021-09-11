@@ -837,7 +837,7 @@ var ObservablesMixin = /*#__PURE__*/function () {
         var _ref8 = _slicedToArray(_ref7, 1),
             mouseEvents = _ref8[0];
 
-        var touchend$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(document, "touchend", {
+        var touChend$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(document, "touChend", {
           passive: true
         }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["filter"])(function (_ref9) {
           var touches = _ref9.touches;
@@ -848,7 +848,7 @@ var ObservablesMixin = /*#__PURE__*/function () {
         var mouseup$ = !mouseEvents ? rxjs__WEBPACK_IMPORTED_MODULE_0__["NEVER"] : Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["fromEvent"])(document, "mouseup", {
           passive: true
         });
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["merge"])(touchend$, mouseup$);
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["merge"])(touChend$, mouseup$);
       }));
     }
   }, {
