@@ -10,9 +10,9 @@ sitemap: false
 description: >
     Education Life.     
 
-    1. 【2015.09 - 2019.06】 : Communication Engineering, School of Information Technology, Guangdong University of Technology, Guangzhou, China
+    1. 【2017.09 - 2021.06】 : Communication Engineering, School of Information Technology, Guangdong University of Technology, Guangzhou, China
     
-    2. 【2019.09 - Now】 : Information and Communication Engineering, School of Information Technology, Guangdong University of Technology, Guangzhou, China         
+    2. 【2021.09 - Now】 : Information and Communication Engineering, School of Information Technology, Guangdong University of Technology, Guangzhou, China         
 
 # accent_color: rgb(38,139,210)
 accent_image: /assets/img/catagorys/justdoit.jpg

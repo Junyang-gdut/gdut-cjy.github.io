@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:              https://house-leo.github.io
+url:              https://gdut-cjy.github.io
 markdown:         kramdown
 
 # Uncomment and set the "base URL" of your site.
@@ -39,13 +39,13 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/post_images/lihao.jpg
+logo:                  /assets/post_images/junyang.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <House> <Lee>
-  email:               <lihao9605@gmail.com>
+  name:                <Junyang> <Chen>
+  email:               <junyang_chen@outlook.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 

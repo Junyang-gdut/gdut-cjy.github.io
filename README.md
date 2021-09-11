@@ -4,26 +4,15 @@
 
 ## 个人
 
-我是HouseLee，博客：[HouseLee](http://house-leo.github.io)
+我是JunYang CHen，博客：[Junyang Chen](http://gdut-cjy.github.io)
 
-刚建立个人主页，时间：2021年03月08日。
+刚建立个人主页，时间：2021年09月10日。
 
-现在研究方向为 **Real Image Super Resolution**, **Real Image Denoising** 。
+现在研究方向为 **Virtual Try-on**.
 
 ## 座右铭
 
-承君此诺，必守一生-《仙剑四》
+愿世间所有美好如你所愿。
 
 
-### Changelog
 
-
-- 2021-03-08
-	
-	- 建立Homepage
-	
-- 2021-08-22
-
-  - 更新*‘使用docker部署本地overleaf’*
-
-  # gdut-cjy.github.io

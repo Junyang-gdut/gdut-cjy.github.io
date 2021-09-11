@@ -1,7 +1,7 @@
 ---
 title: About Me
 description: > 
-    Resume - House Lee
+    Resume - Junyang Chen
 image: /assets/img/catagorys/justdoit.jpg
 ---
 
@@ -9,21 +9,21 @@ image: /assets/img/catagorys/justdoit.jpg
 
 # Hao Li
 
-- Email : lihao9605@gmail.com
-- Email : 2111903004@mail2.gdut.edu.cn
-- Git Blog : [https://house-leo.github.io](https://house-leo.github.io/)  
+- Email : 624930737@qq.com
+- Email : 2112103020@mail2.gdut.edu.cn
+- Git Blog : [https://gdut-cjy.github.io](https://gdut-cjy.github.io)  
 - M.S Candidate of GDUT under [Prof. Zhijing Yang](https://yzw.gdut.edu.cn/info/1118/2031.htm) 
 
  
 
 # Education  
-- ~ 2015   
-    Graduated from Wuchuan No.1 High School  
-- 2015 ~ 2019   
+- ~ 2017   
+    Graduated from Yuhuai High School  
+- 2017 ~ 2021   
     Guangdong University of Technology (Guangzhou, China)  
     Communication Engineering, School of Information Engineering  
     B.S. 
-- 2019 ~ Present    
+- 2021 ~ Present    
     Guangdong University of Technology (Guangzhou, China)  
     Information and Communication Engineering, School of Information Engineering    
     under [Prof. Zhijing Yang](https://yzw.gdut.edu.cn/info/1118/2031.htm)    
@@ -34,26 +34,25 @@ image: /assets/img/catagorys/justdoit.jpg
 # Official Grade  
 
 - University Major Credit  
-    4.24 / 5 (B.S.) 4.35 / 5 (M.S.)  
+    3.92 / 5 (B.S.) 
 - CET     
-    CET-4 : 506  
-    CET-6 : 476 
+    CET-4 : 487  
+    CET-6 : 474 
 
  
 
 # Research Interests  
-- Domain Adaptation 
-- Image Super-resolution
-- Image Denoising
-- 2D Image Segmentation 
+- Virtual Try-on
+- Knowledge representation learning
+
 
 But not limited to.
 
  
 
 # Conferences 
-1. Lugmayr, Andreas, Martin Danelljan, and Hao Li. "Ntire 2020 challenge on real-world image super-resolution: Methods and results." *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops*. 2020.
-2. Wei Pengxu, Hao Li, et al. "AIM 2020 challenge on real image super-resolution: Methods and results." *arXiv preprint arXiv:2009.12072* (2020).
+1. Cai X, Mo X, Chen J, et al. D2D-enabled data sharing for distributed machine learning at wireless network edge[J]. IEEE Wireless Communications Letters, 2020, 9(9): 1457-1461.
+
 
  
 
@@ -76,6 +75,6 @@ But not limited to.
 # Skills
 
 - Python
-- Pytorch, Tensorflow
+- Pytorch
 - Expertise about Deep Learning
 - Shell
