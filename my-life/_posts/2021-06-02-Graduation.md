@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【Movie】2021-06-2毕业照片
+title: 【Graduation】2021-06-2毕业照片
 ---
 
 
