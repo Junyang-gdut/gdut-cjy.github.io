@@ -8,8 +8,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)  
   about:             |
-      Second-year Master Candidate. 
-      Deep Learning, Image Super-Resolution/Denoising
+      First-year Master Candidate. 
+      Deep Learning, Virtual Try-on 
 
   # This photo will be used in the about section
   picture:
